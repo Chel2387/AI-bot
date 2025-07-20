@@ -15,7 +15,7 @@ text_messages = {
 
 # Замени 'TOKEN' на токен твоего бота
 # Этот токен ты получаешь от BotFather, чтобы бот мог работать
-bot = telebot.TeleBot("8065830628:AAGiPY61y6Oe37c_6fDMvLzLX8YFPP4IGuE")
+bot = telebot.TeleBot("TOKEN")
     
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
