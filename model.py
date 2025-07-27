@@ -23,4 +23,4 @@ def get_class(image_path):
     class_name = class_names[index]
     confidence_score = prediction[0][index]
 
-    return "Class:", class_name[2:-1]
+    return(class_name[2:-1], confidence_score)
